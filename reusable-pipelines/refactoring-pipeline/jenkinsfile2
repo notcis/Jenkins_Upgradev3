@@ -1,8 +1,8 @@
 pipeline {
     agent any
     environment {
-        VERSION = '2.1.0'
-        RELEASE_VERSION = 'R.2'
+        VERSION = '3.0.0'
+        RELEASE_VERSION = 'R.3'
     }
     stages {
         stage('Audit tools') {
